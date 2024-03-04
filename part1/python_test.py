@@ -218,7 +218,8 @@ if __name__ == '__main__':
     run_generic_test(test_num="basic", matrix_a=the_mat_a, matrix_b=the_mat_b, row=the_row,
                      col=the_col, row_a=the_row_a, col_b=the_col_b)
 
-    print(f"{COLOR_PINK}Running Randomized Tests...{COLOR_END}")
+    if the_generate_num >= 2:
+        print(f"{COLOR_PINK}Running Randomized Tests...{COLOR_END}")
     for the_i in range(the_generate_num - 1):
         num_rows = randint(MIN_ROWS, MAX_ROWS)
         the_mat_a = generate_matrix(num_rows=num_rows)
