@@ -2,10 +2,10 @@
 How To Run:
 * On a linux Machine/wsl/linux VM:
 1. Go into "part1" directory:
-cd part1
+```cd part1```
 
 2. Paste your students_code.S script into "part1" directory
-cp <your_students_code.S_file_path> .
+```cp <your_students_code.S_file_path> .```
 
 3. Make sure your current working directory is "part1" and you have the following files there:
 - aux_hw3.o
@@ -15,7 +15,7 @@ cp <your_students_code.S_file_path> .
 - students_code.S
 
 # Run Command:
-python3 python_test.py 10
+```python3 python_test.py 10```
 
 * Change the number '10' with the number of tests YOU want to run.
 
